@@ -1,0 +1,20 @@
+    // Arial bold 15
+    $this->SetFont('Arial','B',16);
+    // Movernos a la derecha
+    $this->Cell(60);
+    // Título
+    $this->Cell(70,10,'Reporte de Productos ',0,0,'C');
+    // Salto de línea
+    $this->Ln(20);
+
+    $this->Cell(80,10,'Nombre',1,0,'C',0);
+	$this->Cell(50,10,'Precio',1,0,'C',0);
+	$this->Cell(50,10,'Stock',1,1,'C',0);
+
+    $this->SetFont('Arial', '', 12);
+    $this->MultiCell(0, 7, utf8_decode('Los archivos PDF se utilizan ampliamente en documentos y reportes que necesitan mantener el diseño y contenido (imágenes, tipos de letra, colores, etc), por ello vamos a aprender a crear archivos PDF utilizando PHP.'), 0, 1);
+    $this->Ln();
+    $this->MultiCell(0, 7, utf8_decode('FPDF es una clase PHP que permite la generación de archivos PDF de forma sencilla y sin necesidad de instalar librerías adicionales, cuenta con métodos bien documentados que facilitan su uso.'), 0, 1);
+    $this->Ln();
+    $this->MultiCell(0, 7, utf8_decode('Antes de comenzar lo primero es descargar FPDF e incluir los archivos necesarios en nuestro proyecto.'), 0, 1);
+    $this->Ln();
