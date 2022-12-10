@@ -22,4 +22,9 @@ Este proyecto tiene lo siguiente:
 - Bitacora.
 - Administración de clientes.
 - Configuración de permisos administrativos.
+- Tipos de Roles clientes, abogados, administrador de sistema.
+- notificaciones en tiempo real.
+- Perfil de usuarios.
+- Importación de archivos pdf.
+- Limitación de archivos con maximo de 10mb.
 
