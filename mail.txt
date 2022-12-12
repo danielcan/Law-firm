@@ -1,2 +1,0 @@
-usuario:testprueba174@gmail.com
-contraseña:Testprueba174@
